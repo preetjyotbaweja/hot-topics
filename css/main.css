@@ -1,0 +1,314 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 0;
+    font-size: 0.75rem;
+    box-sizing: border-box;
+    line-height: 1.4rem;
+    font-size: 0.75rem;
+}
+
+
+
+.masthead {
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/masthead.jpg);
+    background-size: cover;
+    padding: 12rem;
+}
+
+.logo {
+    width: 150px;
+    height: 80px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    margin-left: 38%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    color: #000000;
+}
+
+li {
+    overflow: hidden;
+    display: inline-block;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    font-family: 'Alegreya', serif;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #bd9d82;
+    border: none;
+    border-radius: 5px;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: black;
+}
+
+.tag-line {
+    text-align: center;
+    box-sizing: border-box;
+    border: 4px solid black;
+}
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    color: black;
+}
+
+article {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+}
+
+img.cover {
+    width: 50%;
+    height: auto;
+}
+
+/*home Page*/
+
+.main {
+    max-width: 60rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+
+}
+
+
+figcaption {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.top img {
+    width: 50%;
+    height: auto;
+    background-size: cover;
+}
+
+.top figure {
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+
+.info {
+    margin-bottom: 4rem;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+#article3 {
+
+    margin-left: -7px;
+}
+
+/*portfolio*/
+
+.col {
+    margin-bottom: 2rem;
+}
+
+figure {
+    text-align: center;
+}
+
+
+.portfolio img-box {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3em;
+}
+
+
+footer {
+    background-color: #bd9d82;
+    ;
+    padding: 3rem;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+
+.social li {
+    float: left;
+    padding: 0 1em;
+    list-style: none;
+    color: black;
+}
+
+footer .row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer ul {
+
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #8a2be2;
+}
+
+footer h4 {
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 10px;
+}
+
+
+@media only screen and (min-width: 35rem) {
+    .logo {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+
+    figcaption {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+
+    .top img {
+        width: 300px;
+        height: 200px;
+        background-size: cover;
+    }
+
+    .top figure {
+        float: left;
+        margin: 0.5rem 3rem 0 0;
+        width: 300px;
+    }
+
+    .info {
+        margin-bottom: 4rem;
+    }
+
+
+    .social li {
+        float: left;
+        padding: 0 1em;
+        list-style: none;
+    }
+
+    footer .row {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    footer h4 {
+        margin-bottom: 1rem;
+        color: white;
+        font-size: 12px;
+    }
+
+    @media only screen and (min-width: 80rem) {
+        .logo {
+            width: 340px;
+            height: 180px;
+            margin-bottom: 50px;
+            margin-top: 25px;
+
+        }
+
+        body {
+            font-size: 1.25rem;
+
+        }
+
+        article {
+            margin: 4rem;
+        }
+
+
+        .main {
+
+            max-width: 80rem;
+            margin: 0 auto;
+
+        }
+
+
+        figcaption {
+            margin-top: 1rem;
+            text-align: center;
+
+        }
+
+
+        .top img {
+            width: 330px;
+            height: 250px;
+        }
+
+        .top figure {
+            float: left;
+            display: inline-block;
+            margin-right: 5rem;
+        }
+
+        .info {
+            overflow: auto;
+            margin-bottom: 4rem;
+        }
+
+        /*footer*/
+        .social li {
+            float: left;
+            padding: .5em;
+            list-style: none;
+            font-size: 40px;
+
+        }
+
+        footer h4 {
+            font-size: 15px;
+        }
+
+        footer .row {
+            width: 100%;
+            height: 100px;
+            margin: 0 auto;
+            font-size: 20px;
+
+        }
+    }
